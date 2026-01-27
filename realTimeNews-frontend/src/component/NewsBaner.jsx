@@ -1,6 +1,5 @@
 import React from 'react'
 import Heading from '../utils/Heading';
-import newslogo from '../assets/newslogo.png';
 import newsbaner from '../assets/sample-add.jpg'
 
 const NewsBaner = () => {
