@@ -17,13 +17,13 @@ const Techonology = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {techNewsItemsData.map((item, index) => (
                     <div key={index} className="relative group">
-                    <div className="overflow-hidden">
-                        <img
-                        className="group-hover:scale-[1.1] transition-all duration-[1s] h-[228px] w-full"
-                        src={item.img}
-                        alt="image"
-                        />
-                    </div>
+                        <div className="overflow-hidden">
+                            <img
+                            className="group-hover:scale-[1.1] transition-all duration-[1s] h-[228px] w-full"
+                            src={item.img}
+                            alt="image"
+                            />
+                        </div>
                     <Link className="absolute invisible group-hover:visible w-full h-full left-0 top-0 bg-white      cursor-pointer transition-all opacity-5 duration-300"
                     to={item.link}>
                     </Link>
